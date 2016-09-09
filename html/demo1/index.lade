@@ -1,0 +1,8 @@
+import<../head.lade>
+		div [style:"width:100%;height:100%"] (controller:"demo")
+			div (timeout:"second"  timeout-data:"time" timeout-func:"timeout" html:"{{t}}" data:"timeout")
+			button (click:"start") "start"
+			button (click:"stop") "stop"
+
+
+	script [src:"./index.js"]
